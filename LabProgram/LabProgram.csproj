@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{75A14907-F84C-4C21-BF23-ADC3F814156E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LabProgram</RootNamespace>
+    <AssemblyName>LabProgram</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DescribePRO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DescribePRO.Designer.cs">
+      <DependentUpon>DescribePRO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExEvent.Designer.cs">
+      <DependentUpon>ExEvent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExInt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExInt.Designer.cs">
+      <DependentUpon>ExInt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExNewOpr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExNewOpr.Designer.cs">
+      <DependentUpon>ExNewOpr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExObjTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExObjTemp.Designer.cs">
+      <DependentUpon>ExObjTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExOper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExOper.Designer.cs">
+      <DependentUpon>ExOper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExOpr2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExOpr2.Designer.cs">
+      <DependentUpon>ExOpr2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExRes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExRes.Designer.cs">
+      <DependentUpon>ExRes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExRSost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExRSost.Designer.cs">
+      <DependentUpon>ExRSost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExTempRule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExTempRule.Designer.cs">
+      <DependentUpon>ExTempRule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExTrans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExTrans.Designer.cs">
+      <DependentUpon>ExTrans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExTypeRes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExTypeRes.Designer.cs">
+      <DependentUpon>ExTypeRes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab1Continue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab1Continue.Designer.cs">
+      <DependentUpon>Lab1Continue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab1Last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab1Last.Designer.cs">
+      <DependentUpon>Lab1Last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab1Steps1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab1Steps1.Designer.cs">
+      <DependentUpon>Lab1Steps1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab1Steps2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab1Steps2.Designer.cs">
+      <DependentUpon>Lab1Steps2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab1Tittle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab1Tittle.Designer.cs">
+      <DependentUpon>Lab1Tittle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab2Continue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab2Continue.Designer.cs">
+      <DependentUpon>Lab2Continue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab2Last.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab2Last.Designer.cs">
+      <DependentUpon>Lab2Last.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab2Steps1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab2Steps1.Designer.cs">
+      <DependentUpon>Lab2Steps1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab2Tittle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab2Tittle.Designer.cs">
+      <DependentUpon>Lab2Tittle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3Continue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3Continue.Designer.cs">
+      <DependentUpon>Lab3Continue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3Steps1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3Steps1.Designer.cs">
+      <DependentUpon>Lab3Steps1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3Tittl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab3Tittl.Designer.cs">
+      <DependentUpon>Lab3Tittl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DescribePRO.resx">
+      <DependentUpon>DescribePRO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExEvent.resx">
+      <DependentUpon>ExEvent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExInt.resx">
+      <DependentUpon>ExInt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExNewOpr.resx">
+      <DependentUpon>ExNewOpr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExObjTemp.resx">
+      <DependentUpon>ExObjTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExOper.resx">
+      <DependentUpon>ExOper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExOpr2.resx">
+      <DependentUpon>ExOpr2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExRes.resx">
+      <DependentUpon>ExRes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExRSost.resx">
+      <DependentUpon>ExRSost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExTempRule.resx">
+      <DependentUpon>ExTempRule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExTrans.resx">
+      <DependentUpon>ExTrans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExTypeRes.resx">
+      <DependentUpon>ExTypeRes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab1Continue.resx">
+      <DependentUpon>Lab1Continue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab1Last.resx">
+      <DependentUpon>Lab1Last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab1Steps1.resx">
+      <DependentUpon>Lab1Steps1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab1Steps2.resx">
+      <DependentUpon>Lab1Steps2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab1Tittle.resx">
+      <DependentUpon>Lab1Tittle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab2Continue.resx">
+      <DependentUpon>Lab2Continue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab2Last.resx">
+      <DependentUpon>Lab2Last.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab2Steps1.resx">
+      <DependentUpon>Lab2Steps1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab2Tittle.resx">
+      <DependentUpon>Lab2Tittle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3Continue.resx">
+      <DependentUpon>Lab3Continue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3Steps1.resx">
+      <DependentUpon>Lab3Steps1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3Tittl.resx">
+      <DependentUpon>Lab3Tittl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
